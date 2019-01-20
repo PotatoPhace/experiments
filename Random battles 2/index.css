@@ -1,0 +1,108 @@
+body {
+    background-color: darkslategray;
+  }
+  
+  #chara {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color: #abc;
+    outline: 2px gray solid;
+  }
+
+  #check {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color: #abc;
+  }
+
+  #checked {
+    display: block;
+    background-color: darkslategray;
+    color: #f3456f;
+    width: 200px;
+    height: 75px;
+    font-size:16px ;
+    font-family: lobster two, cursive;
+  }
+
+  #dialog {
+    display: block;
+    background-color: darkslategray;
+    width: 200px;
+    height: 75px;
+    font-size:16px ;
+    font-family: lobster two, cursive;
+  }
+
+  #guess {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color: #abc;
+    outline: 2px gray solid;
+  }
+
+  #guessed {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color: #abc;
+  }
+  
+  #heal {
+    color: #f3456f;
+    font-family: lobster two;
+    background-color: #abc;  
+  }
+
+  h3 {
+    color: #f3456f;
+    font-family: lobster ;
+    font-size: 19px;
+  }
+
+  .instruct {
+    color: #f3456f;
+    font-family: lobster two;
+    background-color: #abc;  
+  }
+
+  #picked {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color: #abc;
+  }
+  
+  #proced {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color: #abc;
+  }
+
+  .stats {
+    display: block;
+    background-color: darkslategray;
+    width: 150px;
+    height: 75px;
+    font-size:16px ;
+    font-family: lobster two, cursive;
+  }
+
+  .start {
+    font-family: lobster two, cursive;
+    color:#f3456f;
+    background-color:#abc;
+  }
+
+  .story {
+    display: block;
+    background-color: darkslategray;
+    width: 200px;
+    height: 75px;
+    font-size:16px ;
+    font-family: lobster two, cursive;
+  }
+
+  #tittle {
+    color: #f34551;
+    font-family: 'Indie Flower', cursive;
+  } 
+  

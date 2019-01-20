@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random Battles 2</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="index.css" rel="stylesheet" >
+</head>
+<body>
+  <h1 id='tittle'>Random Battles 2</h1>
+  <button class="start">start adventure</button>
+  <button class="instruct">How to play</button>
+  <select name="" id="chara">
+    <option value="1">Jake the knight</option>
+    <option value='2'>Jessie the archer</option>
+    <option value='3'>June the mage</option>
+  </select> 
+  <h3 id="info">Pick a character, then press "done", finally guess a number to see if you can attack.
+      Beat all three bosses to obtain the Elemental Chaos Orb and fight The Giant Lord</h3>
+  <select  id="guess">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+  </select>  
+  <button id='picked'>done</button>
+  <button id='guessed'>activate</button>
+  <button id='check'>check</button>
+  <button id='proced'>proced</button>
+  <button id='heal'>use potion (4)</button>
+  <div class="stats"></div>
+  <div class='story'></div>
+  <h3 id='encounter'></h3>
+  <h3 id='random'></h3>
+  <h3 id='currentStats'></h3>
+  <h3 id='attack'></h3>
+  <h3 id='result'></h3>
+  <div id='dialog'></div>
+  <div id='checked'></div>
+</body>  
+  
+<script src="index.js"></script>
+</html>

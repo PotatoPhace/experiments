@@ -1,0 +1,68 @@
+.button {
+    color:rgb(0, 0, 0);
+    border-color:rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    font-size: 25px ;
+}
+h1 {
+    color:rgb(0, 0, 0);
+    font-size: 50px ;
+}
+h2 {
+    color: black;
+    font-size: 35px;
+}
+#flaseButton {
+    color: black;
+    border-color: black;
+    background-color: rgb(40, 128, 0);
+    font-size:25px ;
+}
+h3 {
+    color:rgb(167, 15, 15);
+    font-size: 50px ;
+}
+h4 {
+    color:rgb(0, 0, 0);
+    font-size: 15px ;
+}
+#doIt{
+    color:lightseagreen;
+    font-family: 'Coiny', cursive;
+    font-size: 40px;
+}
+#itBegins {
+    color:black;
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+}
+.start {
+    font-size: 25px;
+    color:honeydew;
+    border-color:hotpink;
+    background-color:lightcoral;
+}
+#good {
+    border-radius: 100%;
+    background-color: darkred;
+    color: aqua;
+    font-size: 24px;
+    width: 100px;
+    height: 100px;
+}
+#BAD {
+    border-radius: 100%;
+    background-color: aqua;
+    color: darkred;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+}
+#why {
+    color:cornflowerblue;
+    background-color: tan;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
