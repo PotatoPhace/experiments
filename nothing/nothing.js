@@ -5,6 +5,7 @@ $('#good').hide();
 $('#BAD').hide();
 $('#why').hide();
 $('#ohWell').hide();
+$('.equal').hide();
      var totalSeconds = 300;
     var wait = window.setTimeout(function() {
         $(".button").hide();
@@ -79,9 +80,9 @@ $("#good").on('click', function(){
     
 });
 $("#BAD").on('click', function(){
-    $('#good').hide();
-    $('#BAD').hide();
-    $('#doIt').hide();
+    $('#good').hide('slow');
+    $('#BAD').hide('slow');
+    $('#doIt').hide('slow');
     $('#itBegins').text('wait... WHERE ARE YOU GOING!:(');
     $('#error').text('OH so NOW you listen to me, well now your in MY story and you will play by MY rules.');
     window.setTimeout(function() {
@@ -89,15 +90,51 @@ $("#BAD").on('click', function(){
     }, 5000);
     window.setTimeout(function() {
         $('#error').text('*clears thoat* now, push that button and do not bother waiting(IT WILL DO NOTHING)');
-        $('#why').show();
+        $('#why').show('slow');
         var wait = window.setTimeout(function() {
             $('h4').text('...well at least that is something :|')
         }, 10000);
     }, 5000);
     $('#why').on('click', function(){
-        $('#why').hide();
-        $('#ohWell').show();
-        $('#error').text('ok after this button, things get good ;)');//100!
-        $('h4').hide();
+        $('#why').hide('slow');
+        $('#ohWell').show('slow');
+        $('#error').text('ok after this button, things get good ;)');//100
+        $('h4').hide('slow');
+    });
+});
+$('#ohWell').on('click', function(){
+    $('.equal').show('slow');
+    $('#ohWell').hide('slow');
+    $('#error').text('ooooooh two buttons');
+});
+$('.equal').on('click', function(){
+    $('.equal').hide('slow');
+    $('#badA').show('slow');
+    $('#error').text('I `ll admit, pressing buttons is boring, so now press button in TIME!');
+    var bad = window.setInterval(function() {
+        $("#newCountdown").text("you have "  + bad +  " seconds till time is up");
+        bad--;
+        if(bad === 0) {
+            clearInterval(bad);
+            $("#newCountdown").hide('slow');
+        }
+    }, 1000);
+    var more = window.setTimeout(function() {
+        $('.start').hide('slow');
+    }, 21000);
+    $("#badA").on('click', function(){
+        $('#badB').show();
+    });
+    $("#badB").on('click', function(){
+        $('#badC').show();
+    });
+    $("#badC").on('click', function(){
+        $('#badD').show();
+    });
+    $("#badD").on('click', function(){
+        $('#badE').show();
+    });
+    $("#badE").on('click', function(){
+        clearTimeout(more)
     });
 });
