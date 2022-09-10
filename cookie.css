@@ -1,0 +1,345 @@
+body {
+    text-align: center;
+    background-color: #fa5;/*#fa5*/
+  }
+  
+  button {
+    font-size: 25px;
+    cursor: pointer;
+    height: 60px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #everything {
+   width: 1455px; 
+   position: relative;
+   margin-top: 32px;
+  }
+  
+  #producers {
+    width: 450px;
+    position: absolute;
+    border: 1px black solid;
+    background-color: #ded;
+  }
+  
+  #cookieTime {
+    width: 450px;
+    border: 1px black solid;
+    background-color: red;
+    position: fixed;
+    margin-left: 450px;
+    bottom: 48px;
+    z-index:2;
+  }
+  
+  #thisIsWhereTheFunBegins {
+    width: 550px;
+    border: 1px black solid;
+    position: relative;
+    bottom: 0px;
+    margin-left: auto;
+    background-color: green;
+  }
+  
+  #cookie {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 400px;
+    height: 275px;
+  }
+  
+  #totalCount {
+    position: relative;
+    bottom: 810px;
+  }
+  
+  .click {
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .clack {
+    position: relative;
+    display: block;
+    right: 113px;
+    bottom: 270px;
+    border-radius: 50%;
+  }
+  
+  #golden {
+    border-radius: 50%;
+    position: fixed;
+    z-index: 3;
+  }
+  
+  #gun {
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  #gunBase {
+    background-color:darkslategray;
+    width: 50px;
+    height: 15px;
+    z-index: 2;
+  }
+  
+  #gunTop {
+    background-color:darkslategray;
+    width: 15px;
+    height: 20px;
+    z-index: 2;
+  }
+  
+  #buyGun {
+    color: #d00;
+    background-color: #494;
+  }
+  
+  #upgrade {
+    color: green;
+  }
+  
+  #slave {
+    color: purple;
+    background-color: yellow;
+  }
+  
+  #betterSlaveWork {
+    color: purple;
+    cursor: pointer;
+    background-color: yellow;
+  }
+  
+  .convert {
+    background-color: black;
+    color: white;
+  }
+  
+  #amigo {
+    color: orange;
+    background-color: #0dd;
+  }
+  
+  #nuke {
+    background-color: black;
+    color: #4c4;
+  }
+  
+  #radioactive {
+    background-color: black;
+    color: #4c4;
+  }
+  
+  #roof {
+    height: 35px;
+  }
+  
+  #settings {
+    position: fixed;
+    left: 10px;
+    top: 0px; 
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #background {
+    position: fixed;
+    right: 10px;
+    top: 0px; 
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #machine {
+    background-color: skyblue;
+    color: yellow;
+  }
+  
+  #airCookies {
+    background-color: skyblue;
+    color: yellow;
+  }
+  
+  .bet {
+    background: radial-gradient(circle, #111 0%, #ff4 35%, #e33 100%);
+    color: #bff;
+  }
+  
+  #bullet {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px darkslategray solid;
+    right: -44px;
+    z-index: 1;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  .bang {
+    background-color: grey;
+    animation-name:GUN;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .SAC {
+    background-color: transparent;
+    animation-name: SAC;
+    animation-duration: 1.5s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+  }
+  
+  .Axhel {
+    animation-name: trueVoid;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  .eyes {
+    animation-name: eyes;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  .achievement {
+    color: grey;
+  }
+  
+  .buh {
+    background-color: #640;
+  }
+  
+  .void {
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(144,164,165,1) 84%);
+    color: white;
+  }
+  
+  #SAC{
+    font-family: kalam;
+    color: #d69;
+    margin-bottom: 50px;
+    height: 115px;
+    background: radial-gradient(circle, rgba(59,3,3,1) 0%, rgba(98,57,42,1) 60%, rgba(230,75,41,1) 93%, rgba(246,91,57,1) 100%);
+  }
+  
+  #fakePngRobin {
+    position: relative;
+    z-index: -1;
+  }
+  
+  #fakePngBatman {
+    position: fixed;
+    z-index: 5;
+  }
+  
+  #bangPNG {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    z-index: 4;
+    border-radius: 45%;  
+    color: #6ae;
+    background: radial-gradient(circle, #fff 0%, #ff3 10%, #e33 75%, #e11 100%);
+  }
+  
+  #bangPng {
+    top: 0px;
+    right: -150px;
+    position: fixed;
+    z-index: 4;
+  }
+  
+  #axhel {
+    margin: auto;
+    top: 50px;
+    width: 85px;
+    height: 100px;
+    z-index:9;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #axhelLeft {
+    margin-left: auto;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #dfd4d1;
+    z-index:9;
+    position: relative;
+    box-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+  }
+  
+  #axhelRight {
+    bottom: 20px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #dfd4d1;
+    z-index:9;
+    position: relative;
+    box-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+  }
+  
+  @keyframes GUN {
+    0%{
+      left: 44px;
+    }
+     60%{
+      left: 200px;
+    }
+    100%{
+      left: 200px;
+    }
+  }
+  
+  @keyframes SAC {
+    0%{
+      background-color: rgba(246,91,57,1);
+    }
+     70%{
+      background-color: transparent;
+    }
+    100%{
+      background-color: transparent;
+    }
+  }
+  
+  @keyframes trueVoid {
+    5%{
+      background-color: #2c0746;
+    }
+     70%{
+      background-color: transparent;
+    }
+    100%{
+      background-color: transparent;
+    }
+  }
+  
+  @keyframes eyes {
+    0%{
+      background-color: transparent;
+    }
+     70%{
+      background-color: #dfd4d1;
+    }
+    100%{
+      background-color: #dfd4d1;
+    }
+  }
+  
+  
+  
